@@ -35,7 +35,7 @@ print("Show first 5 lines")
 wine_df.show(5)
 
 ## load Model 
-model = PipelineModel.load("/user/systest/models/spark/")
+model = PipelineModel.load("models/spark/")
 
 ## Predict 
 result=model.transform(wine_df)
